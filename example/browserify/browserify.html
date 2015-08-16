@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dele</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>dele</h1>
+            <h3><em>['deːlə], verb</em></h3>
+            <h4>English; to share</h4>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>href attribute</h2>
+                <pre>href="javascript:dele().facebook()"</pre>
+
+                <a href="javascript:dele().facebook()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on Facebook
+                </a>
+
+                <a href="javascript:dele().twitter()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on Twitter
+                </a>
+
+                <a href="javascript:dele().google()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on Google+
+                </a>
+
+                <a href="javascript:dele().linkedIn()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on LinkedIn
+                </a>
+
+                <a href="javascript:dele().email()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share via email
+                </a>
+
+                <br><br>
+            </div>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>onclick attribute</h2>
+                <pre>onclick="dele().facebook()"</pre>
+
+                <a onclick="dele().facebook()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on Facebook
+                </a>
+
+                <a onclick="dele().twitter()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on Twitter
+                </a>
+
+                <a onclick="dele().google()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on Google+
+                </a>
+
+                <a onclick="dele().linkedIn()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on LinkedIn
+                </a>
+
+                <a onclick="dele().email()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share via email
+                </a>
+
+                <br><br>
+            </div>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>custom url and title</h2>
+                <p>
+                    <strong>dele</strong> share the current url and current title by default.
+                    If you wish to override this, simply use <em>url()</em> and <em>title()</em>.
+                </p>
+
+                <p>
+                    Only Twitter, LinkedIn and email supports <em>.title()</em>
+                </p>
+                <pre>onclick="dele().url('http://github.com/ecrmnn').title('@ecrmnn').facebook()"</pre>
+
+                <a onclick="dele().url('http://github.com/ecrmnn').title('@ecrmnn').facebook()"
+                    class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on Facebook
+                </a>
+
+                <a onclick="dele().url('http://github.com/ecrmnn').title('@ecrmnn').twitter()"
+                    class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on Twitter
+                </a>
+
+                <a onclick="dele().url('http://github.com/ecrmnn').title('@ecrmnn').google()"
+                    class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on Google+
+                </a>
+
+                <a onclick="dele().url('http://github.com/ecrmnn').title('@ecrmnn').linkedIn()"
+                    class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share on LinkedIn
+                </a>
+
+                <a onclick="dele().title('@ecrmnn').email()"
+                    class="btn btn-default">
+                    <span class="glyphicon glyphicon-share"></span>
+                    Share via email
+                </a>
+
+                <br><br>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="bundle.js"></script>
+</body>
+</html>

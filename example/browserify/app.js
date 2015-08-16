@@ -1,0 +1,1 @@
+window.dele = require('../../src/dele');
