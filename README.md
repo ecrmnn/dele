@@ -1,6 +1,9 @@
 # dele
 ['deːlə], verb
+
 **Social sharing links made easy**
+
+Share via ``facebook()``, ``twitter()``, ``google()``, ``linkedIn()`` or ``email()``
 
 ### Installation
 Install using NPM
@@ -26,12 +29,10 @@ See also example/browserify/browserify.html
 
 **Custom URL and title**
 
-**dele** shares the current url and current title by default.
-
-If you wish to override this, simply use ``url()`` and ``title()``
+**dele** shares the current url and current title by default. If you wish to override this, simply use ``url()`` and ``title()``
 
     // something.html
     <a onclick="dele().url('http://github.com/ecrmnn').title('@ecrmnn').linkedIn()">
-        Share on Facebook
+        Share on LinkedIn
     </a>
     
