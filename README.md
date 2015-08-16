@@ -1,5 +1,6 @@
 # dele
 ['deːlə], verb
+**Social sharing links made easy**
 
 ### Installation
 Install using NPM
