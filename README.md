@@ -17,6 +17,7 @@ See also example/browserify/browserify.html
 
     // something.js
     window.dele = require('dele');
+
 **HTML**
 
     // something.html
@@ -24,7 +25,9 @@ See also example/browserify/browserify.html
     <a onclick="dele().twitter()">Share on Twitter</a>
 
 **Custom URL and title**
+
 **dele** shares the current url and current title by default.
+
 If you wish to override this, simply use ``url()`` and ``title()``
 
     // something.html
